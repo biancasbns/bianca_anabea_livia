@@ -1,0 +1,37 @@
+* {        
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #b8f3e0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #247b60;
+    margin-bottom: 12px;
+    font-size: 36px;
+    text-shadow: 2px 2px white;
+}
+
+canvas {
+    background: #d8fff0;
+    border: 5px solid #247b60;
+    border-radius: 12px;
+    max-width: 95vw;
+}
+
+/* Informação sobre onde se movimentar */
+#info { 
+    margin-top: 10px;
+    color: #185b48;
+    font-weight: bold;
+    text-align: center;
+}
